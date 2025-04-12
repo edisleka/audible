@@ -5,7 +5,7 @@ interface Book {
   id: string
   title: string
   author: string
-  thumbnail_url?: string
+  thumbnail_url: string
   audio_url: string
 }
 
@@ -15,7 +15,7 @@ interface BookListItemProps {
 
 export default function BookListItem({ book }: BookListItemProps) {
   return (
-    <View className='flex-row gap-4 items-center'>
+    <View className='flex-row gap-4 items-center bg-green-400'>
       <Image
         source={{ uri: book.thumbnail_url }}
         className='w-16 aspect-square rounded-md'

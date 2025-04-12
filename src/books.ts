@@ -19,7 +19,7 @@ export default [
   },
   {
     id: '3',
-    title: 'The Adventures of Sherlock Holmes',
+    title: 'The Adventures of Holmes',
     author: 'Arthur Conan Doyle',
     audio_url:
       'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_01_williams_128kb.mp3',
