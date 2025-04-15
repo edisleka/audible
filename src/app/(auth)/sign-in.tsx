@@ -1,6 +1,6 @@
 import { useSignIn } from '@clerk/clerk-expo'
 import { Link, useRouter } from 'expo-router'
-import { Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { Button, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
 export default function Page() {
