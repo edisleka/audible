@@ -2,13 +2,12 @@ import { View, Text, Pressable, Image } from 'react-native'
 import { Entypo, Ionicons } from '@expo/vector-icons'
 import { router } from 'expo-router'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import books from '@/books'
-import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio'
+import { useAudioPlayerStatus } from 'expo-audio'
 import PlaybackBar from '@/components/PlaybackBar'
+import { usePlayer } from '@/providers/PlayerProvider'
 
 export default function PlayerScreen() {
-  const book = books[0]
-  const player = useAudioPlayer({ uri: book.audio_url })
+  const { book, player } = usePlayer()
   const status = useAudioPlayerStatus(player)
   // console.log(JSON.stringify(status, null, 2))
 

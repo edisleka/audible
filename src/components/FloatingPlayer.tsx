@@ -1,12 +1,14 @@
 import { View, Image, Text, Pressable } from 'react-native'
 import { Link } from 'expo-router'
 import { AntDesign } from '@expo/vector-icons'
-import books from '@/books'
-import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio'
+import { useAudioPlayerStatus } from 'expo-audio'
+import { usePlayer } from '@/providers/PlayerProvider'
+
 export default function FloatingPlayer() {
-  const book = books[0]
-  const player = useAudioPlayer({ uri: book.audio_url })
+  const { player, book } = usePlayer()
   const status = useAudioPlayerStatus(player)
+
+  if (!book) return null
 
   return (
     <Link href='/player' className='text-white' asChild>
@@ -20,7 +22,13 @@ export default function FloatingPlayer() {
           <Text className='text-gray-400'>{book.author}</Text>
         </View>
         <AntDesign
-          name={status.playing ? 'pause' : 'playcircleo'}
+          name={
+            status.isBuffering
+              ? 'loading1'
+              : status.playing
+              ? 'pause'
+              : 'playcircleo'
+          }
           size={24}
           color='gainsboro'
           onPress={() => (status.playing ? player.pause() : player.play())}
