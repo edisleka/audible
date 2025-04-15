@@ -8,7 +8,7 @@ export default function App() {
     <>
       <FlatList
         data={books}
-        contentContainerClassName='gap-4'
+        contentContainerClassName='gap-4 bg-green-500'
         renderItem={({ item }) => <BookListItem book={item} />}
       />
 

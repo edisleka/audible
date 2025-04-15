@@ -77,4 +77,58 @@ export default [
       'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_07_williams_128kb.mp3',
     thumbnail_url: 'https://m.media-amazon.com/images/I/51IPJiX34fL.jpg',
   },
+  {
+    id: '10',
+    title: 'Dracula',
+    author: 'Bram Stoker',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_03_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dracula_1st_ed_cover_reproduction.jpg/330px-Dracula_1st_ed_cover_reproduction.jpg',
+  },
+  {
+    id: '11',
+    title: 'The Picture of Dorian Gray',
+    author: 'Oscar Wilde',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_04_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lippincott_doriangray.jpg/330px-Lippincott_doriangray.jpg',
+  },
+  {
+    id: '12',
+    title: 'Dracula',
+    author: 'Bram Stoker',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_03_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dracula_1st_ed_cover_reproduction.jpg/330px-Dracula_1st_ed_cover_reproduction.jpg',
+  },
+  {
+    id: '13',
+    title: 'The Picture of Dorian Gray',
+    author: 'Oscar Wilde',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_04_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lippincott_doriangray.jpg/330px-Lippincott_doriangray.jpg',
+  },
+  {
+    id: '14',
+    title: 'Dracula',
+    author: 'Bram Stoker',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_03_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dracula_1st_ed_cover_reproduction.jpg/330px-Dracula_1st_ed_cover_reproduction.jpg',
+  },
+  {
+    id: '15',
+    title: 'The Picture of Dorian Gray',
+    author: 'Oscar Wilde',
+    audio_url:
+      'https://ia801501.us.archive.org/19/items/lostwarship_2504_librivox/lostwarship_04_williams_128kb.mp3',
+    thumbnail_url:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lippincott_doriangray.jpg/330px-Lippincott_doriangray.jpg',
+  },
 ]
